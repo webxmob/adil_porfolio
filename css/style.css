@@ -2997,6 +2997,15 @@ h6 {
     cursor: pointer;
     color: #fff; }
 
+.resume_widget > a {
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: white; }
+  .resume_widget > a:hover {
+    background: white;
+    color: #000; }
+
 .social_widget p {
   font-size: 14px;
   line-height: 24px;
