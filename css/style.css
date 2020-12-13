@@ -1084,30 +1084,33 @@ button:focus {
   height: 420px;
   margin-bottom: 80px; }
 
-.contact_info .info_item {
-  position: relative;
-  padding-left: 45px; }
-  .contact_info .info_item i {
-    position: absolute;
-    left: 0;
-    top: 0;
-    font-size: 20px;
-    line-height: 24px;
-    color: #766dff;
-    font-weight: 600; }
-  .contact_info .info_item h6 {
-    font-size: 16px;
-    line-height: 24px;
-    color: "Roboto", sans-serif;
-    font-weight: bold;
-    margin-bottom: 0px;
-    color: #222222; }
-    .contact_info .info_item h6 a {
+.contact_info {
+  display: flex;
+  justify-content: center; }
+  .contact_info .info_item {
+    position: relative;
+    padding-left: 45px; }
+    .contact_info .info_item i {
+      position: absolute;
+      left: 0;
+      top: 0;
+      font-size: 20px;
+      line-height: 24px;
+      color: #766dff;
+      font-weight: 600; }
+    .contact_info .info_item h6 {
+      font-size: 16px;
+      line-height: 24px;
+      color: "Roboto", sans-serif;
+      font-weight: bold;
+      margin-bottom: 0px;
       color: #222222; }
-  .contact_info .info_item p {
-    font-size: 14px;
-    line-height: 24px;
-    padding: 2px 0px; }
+      .contact_info .info_item h6 a {
+        color: #222222; }
+    .contact_info .info_item p {
+      font-size: 14px;
+      line-height: 24px;
+      padding: 2px 0px; }
 
 .contact_form .form-group {
   margin-bottom: 10px; }

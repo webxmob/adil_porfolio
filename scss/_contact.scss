@@ -89,6 +89,8 @@
   margin-bottom: 80px;
 }
 .contact_info {
+  display: flex;
+  justify-content: center;
   .info_item {
     position: relative;
     padding-left: 45px;
