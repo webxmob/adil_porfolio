@@ -89,6 +89,18 @@
     }
   }
 }
+.resume_widget {
+  > a {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    &:hover {
+      background: white;
+      color: #000;
+    }
+  }
+}
 .social_widget {
   p {
     font-size: 14px;
